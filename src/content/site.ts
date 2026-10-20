@@ -6,7 +6,7 @@ export const links = {
   email: 'stephanie.vicms@gmail.com',
   linkedin: 'https://www.linkedin.com/in/stephanie-victoria/',
   behance: 'https://www.behance.net/stephanie-victoria',
-  curriculo: 'https://drive.google.com/file/d/1H75onZ4-fiKy8lNyhbtjpjE_YicmEncO/view?usp=sharing',
+  curriculo: 'https://drive.google.com/file/d/1W532jwAIE5B387j8stOxf2aC-Ol2XpAA/view?usp=sharing',
 } as const
 
 export const areas = [

@@ -389,7 +389,18 @@
       opacity 250ms ease-in-out,
       transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .logo-pill:hover .logo-rest,
+  /* O nome só expande onde existe hover; no celular fica sempre recolhido */
+  @media (hover: hover) {
+    .logo-pill:hover .logo-rest {
+      max-width: 190px;
+      opacity: 1;
+      transform: translateX(0);
+      transition:
+        max-width 650ms cubic-bezier(0.22, 1, 0.36, 1),
+        opacity 450ms ease-out 120ms,
+        transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+  }
   .logo-pill:focus-visible .logo-rest {
     max-width: 190px;
     opacity: 1;
@@ -398,6 +409,15 @@
       max-width 650ms cubic-bezier(0.22, 1, 0.36, 1),
       opacity 450ms ease-out 120ms,
       transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  @media (max-width: 640px) {
+    .logo-pill .logo-rest,
+    .logo-pill:hover .logo-rest,
+    .logo-pill:focus-visible .logo-rest {
+      max-width: 0 !important;
+      opacity: 0 !important;
+      transform: translateX(-6px) !important;
+    }
   }
   .lang-opt {
     transition:

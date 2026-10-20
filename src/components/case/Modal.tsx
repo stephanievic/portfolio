@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react'
+import { createPortal } from 'react-dom'
 import { T, useLang } from '../../i18n'
 import { CloseIcon } from '../ui/icons'
 
@@ -55,9 +56,10 @@ export function Modal({
 
   if (!open) return null
 
-  return (
+  // Portal no body: o diálogo fica acima da navegação flutuante, que vive em outro contexto de empilhamento.
+  return createPortal(
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-espresso/55 p-4 backdrop-blur-[2px] sm:p-8"
+      className="fixed inset-0 z-[2147483000] flex items-center justify-center bg-espresso/55 p-4 backdrop-blur-[2px] sm:p-8"
       onClick={onClose}
     >
       <div
@@ -80,6 +82,7 @@ export function Modal({
           {children}
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }

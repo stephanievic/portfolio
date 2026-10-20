@@ -112,7 +112,7 @@ Os textos exatos dos projetos e dos estudos de caso estão nos arquivos do desig
 - E-mail: stephanie.vicms@gmail.com
 - LinkedIn: https://www.linkedin.com/in/stephanie-victoria/
 - Behance: https://www.behance.net/stephanie-victoria
-- Currículo: https://drive.google.com/file/d/1H75onZ4-fiKy8lNyhbtjpjE_YicmEncO/view?usp=sharing
+- Currículo: https://drive.google.com/file/d/1W532jwAIE5B387j8stOxf2aC-Ol2XpAA/view?usp=sharing
 - Links externos abrem em nova aba e trazem o texto oculto "(abre em nova aba)".
 
 ## Internacionalização (PT/EN)
