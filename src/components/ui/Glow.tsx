@@ -59,9 +59,9 @@ export function PageGlow({ className = '' }: { className?: string }) {
   )
 }
 
-export function HeroGlow({ compact = false }: { compact?: boolean }) {
+export function HeroGlow({ compact = false, opacity = 0.45 }: { compact?: boolean; opacity?: number }) {
   return (
-    <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10 opacity-45">
+    <div aria-hidden="true" className="pointer-events-none absolute inset-0 -z-10" style={{ opacity }}>
       <div
         className={blob}
         style={{

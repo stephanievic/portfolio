@@ -67,7 +67,7 @@ export const projects: ProjectSummary[] = [
     path: '/onda-cultural',
     name: 'Onda Cultural',
     title: 'projetando uma solução digital para gestão de editais culturais',
-    tags: ['UX/UI DESIGN', 'PRODUCT DESIGN', 'SaaS B2G'],
+    tags: ['UX/UI DESIGN', 'PRODUCT DESIGN', 'B2G'],
     summary:
       'Sistema web que centraliza criação, inscrição, análise e acompanhamento de editais culturais. Cuidei da experiência de proponentes e pareceristas, desde o levantamento de requisitos até o handoff.',
     image: capaOnda,
@@ -78,7 +78,7 @@ export const projects: ProjectSummary[] = [
     path: '/troca-paginas',
     name: 'Troca Páginas',
     title: 'conectando leitores por meio da troca de livros e experiências literárias',
-    tags: ['UX/UI DESIGN', 'LEVANTAMENTO DE REQUISITOS'],
+    tags: ['UX/UI DESIGN'],
     summary:
       'App mobile para troca de livros entre leitores, feito na graduação em 2024. Defini a identidade visual, os componentes e os protótipos de alta fidelidade, e participei do desenvolvimento front-end.',
     image: capaTroca,

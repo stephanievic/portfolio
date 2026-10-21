@@ -16,7 +16,7 @@ function Hero() {
       aria-labelledby="hero-title"
       className="relative isolate overflow-hidden bg-[linear-gradient(180deg,#f9f4f3_0%,#f7efed_55%,#f9f4f3_100%)] pt-[clamp(128px,12vw,176px)] pb-[clamp(72px,8.3vw,120px)]"
     >
-      <HeroGlow />
+      <HeroGlow opacity={0.5} />
       <div className={section}>
         <h1 id="hero-title" className="m-0 font-semibold text-heading">
           <span className="mb-4 block text-[clamp(22px,2.1vw,30px)] leading-[1.2] font-light tracking-[-0.01em] text-graphite-muted">
@@ -27,7 +27,7 @@ function Hero() {
             <span className="text-[42px] leading-[1.12] font-medium tracking-[-1.05px] text-heading">,</span>
             <span
               aria-hidden="true"
-              className="hero-pill relative ml-[0.16em] inline-block h-14 w-[100px] overflow-hidden rounded-full bg-paper-sunk align-[0.04em]"
+              className="hero-pill relative ml-[0.16em] inline-block h-14 w-[84px] overflow-hidden rounded-full bg-paper-sunk align-[0.04em]"
             >
               <img
                 src={retrato}

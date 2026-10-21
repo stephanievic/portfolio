@@ -822,7 +822,7 @@
       font-size: clamp(40px, 12.4vw, 56px) !important;
     }
     .hero-pill {
-      width: 68px !important;
+      width: 58px !important;
       height: 38px !important;
     }
   }

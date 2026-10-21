@@ -135,7 +135,7 @@ export default function TrocaPaginas() {
       <Toc items={toc} />
       <div className="relative z-[1]">
         <CaseHero
-          kind="ESTUDO DE CASO · UX/UI DESIGN / LEVANTAMENTO DE REQUISITOS"
+          kind="ESTUDO DE CASO · UX/UI DESIGN"
           name="Troca Páginas"
           title="conectando leitores por meio da troca de experiências literárias"
           lead="Aplicativo mobile pensado para conectar leitores e possibilitar a troca de experiências literárias entre eles."
